@@ -1,3 +1,146 @@
+/* body {
+  background-color: #ffffff;
+  color:#23A9bd;
+  font-family: poppins;
+  
+}
+h1{
+    text-align: center;
+    font-size: 3rem;
+    margin: 0em auto;
+    background: #f9f8f8;
+}
+h1:hover{
+    transform: scale(1.2) rotate(3deg) translateY(5px);
+}
+@keyframes pulseEffect{
+    0%{
+        transform: scale(1);
+        opacity: 1;
+    }
+    50%{
+        transform: scale(1.4);
+        opacity: 0.5;
+    }
+    100%{
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+.notification{
+    background-color: #000000;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    animation: pulseEffect 2s ease infinite;
+}
+
+h2{
+    background: #E7DFC9;
+    padding: 100px 0px;
+    text-align: center;
+    text-shadow: 0px 15px 2px #23A9bd;
+    border-radius: 25px;
+}
+
+.para{
+    background-image: url(fang\ yuan.jpg);
+    background-size: contain;
+    background-position: center;
+    padding: 100px 0px;
+    text-align: center;
+}
+form {
+  background: #000000;
+  color: #23A9bd;
+  width: 100%;
+  max-width: 1200px;
+  border: blue 2px solid;
+  box-sizing: border-box;
+  margin: auto;
+  padding: 5px;
+}
+
+.submit{
+    background-color: #23A9bd;
+    padding: 7px 14px;
+    border-radius: 10px;
+    border: none;
+    transition: background-color 0.3s ease-out transform 0.2s ease-out;
+}
+.submit:hover{
+    background-color: #00ddff;
+    transform: translateY(-2px);
+}
+a{
+    text-decoration: none;
+    color: #23A9bd;
+    
+}
+ul{
+    list-style-type: none;    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;  
+    
+}
+.navbar{
+    border: 2px solid rgb(12, 11, 11);
+    width: 100%;
+    max-width: 1280px;
+    padding: 0px;
+    margin: 0px;
+}
+
+section{
+    margin: 0px;
+    padding: 0px;
+    background: #7d7b7d;
+    border-radius: 20px;
+}
+img{
+    border-radius: 50%;
+}
+.Lorem{
+    background-color: whitesmoke;
+    box-shadow: 0px 4px 12px rgb(255, 0, 0);
+}
+
+.img{
+    text-align: center;
+    border: 2px solid palevioletred;
+    background: #1400f2;
+    padding: 20px;
+}
+.gallary{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+   
+}
+#image1{
+    grid-column: span 2;
+}
+
+.gall{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+.photo{
+    width: 100%;
+    border: 3px solid red ;   
+} */
+
+
+
+
+
+
 .product-card {
   max-width: 600px;
 
@@ -9,9 +152,6 @@
   border: 2px solid rebeccapurple;
   background-color: rgb(165, 110, 42);
   border-radius: 17px;
-}
-div {
-  
 }
 .card-img img{
   width: 100%;
