@@ -1,0 +1,10 @@
+body{
+    font-family: 'Poppins', sans-serif,'Courier New';
+    background-color: #010310;
+    color: #23a9bd;
+}
+h1{
+    text-transform: uppercase;
+    font-style: italic;
+
+}
