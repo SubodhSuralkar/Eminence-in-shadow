@@ -1,9 +1,12 @@
+body{
+    
+}
 .site-header{
     position: fixed;
     top: 0; left: 0;
     width: 100%;
     z-index: 1000;
-    background-color: rgba(101, 99, 99, 0.9);
+    background-color: #002147dd ;
     backdrop-filter: blur(12px);
 }
 .nav-container{
@@ -20,6 +23,8 @@
 .cart-badge{
     position: absolute;
     top: -5px; left: 28px;
+    color: #d2b48c;
+
 }
 .nav-links{
     list-style: none;
@@ -28,8 +33,18 @@
 }
 a{
     text-decoration: none;
-    color: black;
+    color: #d2b48c;
     text-transform: uppercase;
-    text-align: ;
+    text-align:center ;
+
+}
+.header-action{
+    display:flex;
+    flex-direction: row;
+    gap: 15px;
+    margin-right: 10px;
+}
+button{
+    background-color: #d2b48c;
 
 }
