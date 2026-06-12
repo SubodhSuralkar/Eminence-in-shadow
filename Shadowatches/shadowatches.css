@@ -1,0 +1,93 @@
+body{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif ;
+}
+.site-header{
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: #002147dd ;
+    backdrop-filter: blur(10px);
+}
+.nav-container{
+    max-width: 1400px;
+    margin: auto;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.cart-wrapper{
+    position: relative;
+}
+.cart-badge{
+    position: absolute;
+    top: -5px; left:  35px;
+    color: #d2b48c;
+    
+}
+.nav-links{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    
+}
+a{
+    text-decoration: none;
+    color: #d2b48c;
+    text-transform: uppercase;
+    text-align: center;
+}
+.brand-logo{
+    margin-left: 10px;
+    font-weight: 800;
+}
+.header-action{
+    display:flex;
+    flex-direction: row;
+    gap: 15px;
+    margin-right: 10px;
+}
+button{
+    background-color: #d2b48c;
+
+}
+.btn-primary{
+    color: black;
+    background: #06f5f5fa;
+    padding: 13px 26px;
+    border-radius: 10px;
+    cursor: pointer; display: inline-block;
+}
+.hero-banner{
+    background-image: url(heroimg.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background: linear-gradient(to bottom, #002147, #d2b48c  ); */
+    min-height: 100vh;
+    padding-top: 50px;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+}
+.hero-content{
+    color: #00bbff;
+    animation: slidesUp 0.9s ease-in-out;
+    margin: auto 15px;
+}
+
+@keyframes slidesUp{
+    from{
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
