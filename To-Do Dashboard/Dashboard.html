@@ -23,7 +23,7 @@
             <li><a href="#">Dashboard</a></li>
             <li><a href="#">Analytics</a></li>
             <li><a href="#">Task</a></li>
-            <li><a href="#">Setting</a></li>  
+            <li><a href="#">Setting</a></li>
           </ul>
         </nav>
         <div class="user-profile">
@@ -34,16 +34,19 @@
         <header class="header">
           <h1>Workspace board</h1>
         </header>
+        <div class="add-task">
+          <span>ADD TASK</span>
+        </div>
         <div class="board-canvas">
           <!-- coloum - to-do -->
           <div class="board-column">
             <h2 class="column-header">To-Do</h2>
             <div class="task-card">
-              <span class="badge-prority-high"> High </span>
+              <span class="badge-priority-high"> High </span>
               <p class="task-title">Fucking Do SOMETHING In LIFE</p>
             </div>
             <div class="task-card">
-              <span class="badge-prority-low"> Low </span>
+              <span class="badge-priority-low"> Low </span>
               <p class="task-title">Think and Meditate</p>
             </div>
           </div>
@@ -52,11 +55,11 @@
           <div class="board-column">
             <h2 class="column-header">In Progress</h2>
             <div class="task-card">
-              <span class="badge-prority-medium"> Medium </span>
+              <span class="badge-priority-medium"> Medium </span>
               <p class="task-title">Fucking Focus</p>
             </div>
             <div class="task-card">
-              <span class="badge-prority-low"> Low </span>
+              <span class="badge-priority-low"> Low </span>
               <p class="task-title">Go To Running</p>
             </div>
           </div>
@@ -64,8 +67,11 @@
           <!-- column - Completed -->
           <div class="board-column">
             <h2 class="column-header">Completed</h2>
+            <div class="empty-state">
+              <p>No tasks completed yet.</p>
+            </div>
             <div class="task-card">
-              <span class="badge-prority-high"> High </span>
+              <span class="badge-priority-high"> High </span>
               <p class="task-title">
                 Content Creation - Faceless youtube channel
               </p>
