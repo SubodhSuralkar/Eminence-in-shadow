@@ -1,14 +1,44 @@
+:root{
+    --primary-background-color: #f4f5f7;
+    --primary-text-color:#172b4d;
+    --primary-button-text-color:#4f46e5;
+    --primary-button-color:#ffffff;
+    --sidebar-width:260px;
+    --font-family:'Poppins', sans-serif;
+
+    /* --bg-card: #ffffff;
+    --bg-sidebar: #ffffff;
+    --primary: #4f46e5;         Indigo color for structural actions like "Add Task" 
+    --primary-hover: #4338ca;    Darker indigo for button hover states 
+    --text-on-primary: #ffffff; */
+}   
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 body{
-    font-family: 'Poppins', sans-serif;
+    font-family: var(--font-family);
     font-size: 1.2rem;
+    color: var(--primary-text-color);
+    background-color: var(--primary-background-color);
 }
-.sidebar-menu{
-    text-decoration: none;
+.app-layout{
+    display: grid;
+    grid-template-columns: var(--sidebar-width) 1fr;
+    height: 100vh;
+}
+.sidebar-menu li{
+    text-transform: uppercase;
     list-style-type: none;
-    color: black;
 }
+a{
+    color: var(--primary-text-color);
+    text-decoration: none;
+}
+button{
+    background-color: var(--primary-button-color);
+    color: var(--primary-button-text-color);
+}
+
