@@ -1,8 +1,8 @@
-const a = {
-	name: "subodh",
-	age: 17,
-	favourite: "science",
-};
-a['friend'] = 'shubham'
-console.log(a);
-    
+// functional and block and global
+var a = 23;
+
+{
+    var  b = 30;
+}
+console.log(a)
+console.log(b)
